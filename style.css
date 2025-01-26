@@ -34,7 +34,7 @@ nav ul {
     cursor: pointer;
 }
 
-nav ul li{
+nav ul li {
     cursor: pointer;
     border-bottom: white;
 
@@ -54,7 +54,7 @@ nav ul a {
 input {
     margin-top: 15px;
     background-color: #484848;
-    width: 230px;
+    width: 220px;
     height: 52px;
     border-radius: 8px;
     padding: 8px 0px 8px 50px;
@@ -65,6 +65,7 @@ input {
 
 input::placeholder {
     color: white;
+    font-size: 24px;
 }
 
 .search-section {
@@ -75,7 +76,8 @@ input::placeholder {
     position: absolute;
     top: 42px;
     right: 85%;
-    color: white
+    color: white;
+    font-size: 15px;
 }
 
 #video-section {
@@ -136,7 +138,7 @@ video {
 }
 
 .section-head {
-    width: 1440px;
+    width: 1515px;
     height: 152px;
     gap: 10px;
 }
@@ -253,6 +255,10 @@ video {
     padding: 20px 10px 5px 5px;
     margin-left: 385px;
     margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+
 }
 
 
@@ -304,6 +310,7 @@ video {
 .expertise-innerbox {
     width: 40%;
     text-align: start;
+    margin-top: 10px;
 
 }
 
@@ -336,7 +343,7 @@ video {
 
 #tech-skills {
     width: 1515px;
-    margin: 70px auto;
+
 }
 
 #tech-skills h2 {
@@ -344,18 +351,18 @@ video {
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    margin-left: 200px;
 }
 
 .scrollbar {
-    width: 1515px;
+    width: 115%;
     display: flex;
     overflow-x: scroll;
     white-space: nowrap;
     scrollbar-width: none;
     gap: 40px;
     scroll-behavior: smooth;
+    padding-left: 150px;
 
 }
 
@@ -366,6 +373,7 @@ video {
     object-fit: contain;
     border-radius: 8px;
 
+
 }
 
 .scrollbar .items {
@@ -373,6 +381,7 @@ video {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-left: 35px;
 }
 
 .scrollbar p {
@@ -398,8 +407,6 @@ video {
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 }
 
 .softskills-box {
@@ -448,7 +455,7 @@ video {
 
 #projects {
     width: 1515px;
-    margin: 70px auto;
+    margin: 70px 20px;
 
 }
 
@@ -457,8 +464,8 @@ video {
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    margin-left: 200px;
+
 }
 
 .projects-all {
@@ -466,15 +473,16 @@ video {
     /* background-color: #a7bee6; */
     display: flex;
     gap: 10px;
-    width: 1515px;
+    width: 111%;
     overflow-x: scroll;
     scroll-behavior: smooth;
     white-space: nowrap;
     scrollbar-width: none;
     margin-bottom: 50px;
     border-radius: 16px;
-    box-shadow: 0px 8px 40px 0px #0000001A;
+    /* box-shadow: 0px 8px 40px 0px #0000001A; */
     cursor: pointer;
+    padding-left: 180px;
 
 
 }
@@ -488,10 +496,6 @@ video {
     padding-bottom: 30px;
     margin: auto;
 
-}
-
-.projects-outerbox:hover{
-    transform: translateY(-27px);
 }
 
 .projects-innerbox {
@@ -526,6 +530,11 @@ video {
     cursor: pointer;
 }
 
+.view-projects:hover{
+    background-color: #235bca;
+
+}
+
 /* Projects ends here */
 
 
@@ -533,6 +542,7 @@ video {
     display: flex;
     justify-content: center;
     gap: 15px;
+    width: 100%;
 
 }
 
@@ -586,7 +596,9 @@ video {
 
 .experienceimg-box img {
     width: 320px;
+    object-fit: contain;
     height: 110px;
+    margin-left: 15px;
 
 }
 
@@ -601,7 +613,7 @@ video {
     font-size: 16px;
     font-weight: 500;
     text-align: center;
-    margin-left: 35px;
+    margin-left: 50px;
 }
 
 .company {
@@ -650,9 +662,9 @@ video {
 }
 
 .line {
-    border-left: 5px solid #1D1D1D;
+    border-left: 4px solid #1D1D1D;
     height: 500px;
-    margin-left: 9.5px;
+    margin-left: 10px;
     position: absolute;
     transform: translateY(3%);
 
@@ -739,7 +751,7 @@ footer {
     background-color: #1d1d1d;
     min-height: 20%;
     width: 100%;
-    height: 606px;
+    height: 350px;
     color: white;
     display: flex;
     justify-content: center;
@@ -753,8 +765,9 @@ footer {
     height: 200px;
     background-color: transparent;
     position: absolute;
-    left: 44.5%;
-    bottom: 94%;
+    left: 45%;
+    bottom: 90%;
+    filter: grayscale(100%);
 }
 
 .contact-me {
@@ -764,13 +777,13 @@ footer {
 }
 
 .info h2 {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 600;
     letter-spacing: -0.02em;
 }
 
 .info span {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
     margin-left: 20px;
 }
@@ -785,7 +798,7 @@ footer {
 
 /* footer */
 
-#btn:hover{
-   background-color:#235bca;
+#btn:hover {
+    background-color: #235bca;
 
 }
