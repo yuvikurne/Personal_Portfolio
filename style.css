@@ -65,7 +65,7 @@ input {
 
 input::placeholder {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .search-section {
@@ -95,35 +95,36 @@ video {
 
 .banner {
     width: 637.81px;
-    height: 48px;
-    font-size: 24px;
+    height: 50px;
+    font-size: 20px;
     font-weight: 700;
     background-color: #fff0bb;
     border-radius: 0 0 16px 16px;
     border: 2px solid #F3BD00;
     border-top: none;
-    text-align: center;
     position: absolute;
     z-index: 11;
     transform: translateX(110%);
     padding-top: 5px;
-
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 5px;
 
 }
 
-.banner p {
+/* .banner p {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     cursor: pointer;
     margin-top: 3px;
-}
+} */
 
 .banner img {
     width: 198.81px;
     height: 24px;
-
 
 }
 
@@ -132,19 +133,6 @@ video {
     font-weight: 400;
 }
 
-/* Portfolio */
-.portfolio {
-    margin: auto;
-}
-
-.section-head {
-    width: 1515px;
-    height: 152px;
-    gap: 10px;
-}
-
-
-/* Portfolio */
 /* Intrroduction Section Starts*/
 
 #introduction {
@@ -199,6 +187,8 @@ video {
     position: absolute;
     transform: translateY(-45%);
     filter: grayscale(100%);
+    /* filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.5)); */
+
 }
 
 #btn {
@@ -293,6 +283,7 @@ video {
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
+    margin-bottom: 60px;
 }
 
 .expertise-outerbox {
@@ -347,7 +338,7 @@ video {
 }
 
 #tech-skills h2 {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
@@ -362,7 +353,7 @@ video {
     scrollbar-width: none;
     gap: 40px;
     scroll-behavior: smooth;
-    padding-left: 150px;
+    padding-left: 170px;
 
 }
 
@@ -403,10 +394,11 @@ video {
 }
 
 #softskills h2 {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
+    margin-left: 10px;
 }
 
 .softskills-box {
@@ -419,6 +411,7 @@ video {
     text-align: center;
     border-radius: 16px;
     box-shadow: 0px 8px 40px 0px #0000001A;
+    margin-left: 10px;
 
 }
 
@@ -460,11 +453,11 @@ video {
 }
 
 #projects h2 {
-    margin-bottom: 20px;
+    margin-bottom: 8%;
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
-    margin-left: 200px;
+    margin-left: 180px;
 
 }
 
@@ -566,10 +559,11 @@ video {
 }
 
 #experience h2 {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
+    /* margin-left: 10px; */
 }
 
 .experience-container {
@@ -638,7 +632,7 @@ video {
 }
 
 #qualification h2 {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     font-size: 48px;
     font-weight: 700;
     line-height: 72px;
